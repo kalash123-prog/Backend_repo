@@ -44,7 +44,7 @@ app.use(express.urlencoded({ extended: true }));
 // ─── Session Store & Config ───────────────────────────────────────────────────
 const store = MongoStore.create({
   mongoUrl: process.env.MONGO_URL,
-  crypto: { secret: process.env.SESSION_SECRET || "fallback-secret" },
+  crypto: { secret: process.env.SESSION_SECRET || "Fallback-secret" },
   touchAfter: 24 * 3600,
 });
 
