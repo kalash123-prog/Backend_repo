@@ -10,12 +10,11 @@ on:
 
 jobs:
   build:
-
     runs-on: self-hosted
 
     strategy:
       matrix:
-        node-version: [24]
+        node-version: [24x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
