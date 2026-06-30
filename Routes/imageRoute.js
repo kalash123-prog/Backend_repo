@@ -1,5 +1,5 @@
  import express from "express";
-import generateImage from "../Utils/ImageAi.js";
+import generateImage from "../utils/ImageAi.js";
  import ImageThread from "../models/imageThread.js";
 
 
